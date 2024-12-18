@@ -1,0 +1,10 @@
+node_modules
+.distdist
+coverage
+.data
+data
+!src/data
+requirements
+.vscode
+.husky
+node_modules/.package-lock.json

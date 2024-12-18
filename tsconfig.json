@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "module": "commonJS",
+        "target": "ES2022",
+        "strictNullChecks": false,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "sourceMap": true,
+        "rootDirs": ["src", "tests"],
+        "baseUrl": "src",
+        "paths": {
+            "@/tests/*": ["../tets/*"],
+            "@/*":["*"]
+        }
+    },
+    "include": ["src", "tests", "jest-integration-config.js", "jest-unit-config.js", "jest-mongodb-config.js", "jest-integration-config.js"],
+    "exclude": ["node_modules"]
+}
