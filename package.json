@@ -39,5 +39,10 @@
     "sucrase": "^3.35.0",
     "ts-jest": "^29.2.5",
     "typescript": "^5.7.2"
+  },
+  "lint-staged": {
+  "*.js": "eslint --fix",
+  "*.ts": "eslint --fix"
   }
+
 }
